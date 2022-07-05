@@ -24,7 +24,7 @@ h2 {
   border-bottom: solid 2px black;
   -webkit-text-stroke: 0.5px whitesmoke; }
 
-.abt_bg {
+.abt_bg, .cont_bg {
   background-image: url("../images/abt_bg.jpg");
   min-height: 500px;
   background-attachment: fixed;
@@ -65,7 +65,7 @@ h2 {
   border-bottom: solid 2px whitesmoke;
   -webkit-text-stroke: 0.5px black; }
 
-.icon_edu {
+.icon_sm {
   width: 128px; }
 
 @media only screen and (max-width: 768px) {
