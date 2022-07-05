@@ -65,12 +65,13 @@ h2 {
   border-bottom: solid 2px whitesmoke;
   -webkit-text-stroke: 0.5px black; }
 
+.icon_edu {
+  width: 128px; }
+
 @media only screen and (max-width: 768px) {
   .card {
     width: 90vw; }
   .card0 {
     margin-right: 0; }
   .card1 {
-    margin-left: 0; }
-  .icon_edu {
-    width: 256px; } }
+    margin-left: 0; } }
