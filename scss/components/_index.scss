@@ -23,7 +23,7 @@ h2{
 
 .abt_bg, .cont_bg{
     background-image: url("../images/abt_bg.jpg");
-    @include parallax_bg
+    @include parallax_bg;
 }
 
 .abt_txt{
