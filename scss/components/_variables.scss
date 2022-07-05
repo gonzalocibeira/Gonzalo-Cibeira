@@ -1,0 +1,16 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0; }
+
+html{
+    scroll-behavior: smooth;
+}
+
+@mixin parallax_bg {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
