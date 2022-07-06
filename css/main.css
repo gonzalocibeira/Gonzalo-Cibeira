@@ -68,6 +68,9 @@ h2 {
 .icon_sm {
   width: 128px; }
 
+.icon_min {
+  width: 25px; }
+
 @media only screen and (max-width: 768px) {
   .card {
     width: 90vw; }
