@@ -85,4 +85,11 @@ h2 {
   .card0 {
     margin-right: 0; }
   .card1 {
-    margin-left: 0; } }
+    margin-left: 0; }
+  .work_bg, .port_bg, .edu_bg, .cont_bg {
+    background-image: none;
+    background-color: #eae9ee; }
+  #edu {
+    color: black;
+    border-bottom: solid 2px black;
+    -webkit-text-stroke: 0.5px whitesmoke; } }
