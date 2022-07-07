@@ -21,8 +21,13 @@ h2{
     -webkit-text-stroke: 0.5px whitesmoke;
 }
 
-.abt_bg, .cont_bg{
-    background-image: url("../images/abt_bg.jpg");
+.abt_bg{
+    background-color: rgb(234, 233, 238);
+    @include parallax_bg;
+}
+
+.cont_bg{
+    background-color: rgb(206, 202, 217);
     @include parallax_bg;
 }
 
