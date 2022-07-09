@@ -112,6 +112,7 @@ h2{
     .work_bg, .port_bg, .edu_bg, .cont_bg{
         background-image: none;
         background-color: rgb(234, 233, 238);
+        overflow: hidden;
     }
 
     #edu{

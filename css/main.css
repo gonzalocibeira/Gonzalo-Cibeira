@@ -100,7 +100,8 @@ h2 {
     min-height: 700px; }
   .work_bg, .port_bg, .edu_bg, .cont_bg {
     background-image: none;
-    background-color: #eae9ee; }
+    background-color: #eae9ee;
+    overflow: hidden; }
   #edu {
     color: black;
     border-bottom: solid 2px black;
