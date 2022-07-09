@@ -28,6 +28,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Montserrat:wght@700&family=Pacifico&family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Gonzalo Cibeira</a>
@@ -56,19 +57,25 @@
         </div>
       </nav>
       <main>
+        <!-- About section -->
         <div class="abt_bg">
             <h2 id="abt">About me</h2>
             <div class="d-flex flex-column mx-3 mx-md-5 my-5">
-                <h3> Hey, thanks for taking a look at my portfolio!</h3>
-                <p class="abt_txt">You have probably arrived here from LikedIn or GitHub, so you already know at least the basics, but let me tell you more about me: <br><br>
+              <h3> Hey, thanks for taking a look at my portfolio!</h3>
+              <div class="d-flex align-items-center justify-content-center">
+                <img src="./images/me.jpg" alt="Picture of Gonzalo Cibeira" class="profile_pic">
+                <p class="abt_txt ms-md-3">You have probably arrived here from LikedIn or GitHub, so you already know at least the basics, but let me tell you more about me: <br><br>
                     I was born and raised in the capital of Argentina (CABA) but since the start of 2022 I've been living in Valencia, Spain. <br>
                     After going to a technical high school and then on to get a degree on automotive engineering, I realized that what I actually liked was the business world (thanks economics 101!) and got myself a degree in Marketing. <br><br> Since then, I had many different roles working on both big corporations and up and coming startups, almost everything you can imagine from being in a call center to managing a multi-million euro client portfolio.
                 </p>
+              </div>
             </div>
         </div>
+        <!-- Work section -->
         <div class=" work_bg">
             <h2 id="work">Work experience</h2>
             <div class="d-flex flex-column align-items-center">
+                <!-- Card 1 -->
                 <div class="card mt-3 card0" data-aos="fade-right">
                     <div class="card-body">
                       <h5 class="card-title">Manager, Customer Success</h5>
@@ -85,6 +92,7 @@
                       </ul>
                     </div>
                 </div>
+                <!-- Card 2 -->
                 <div class="card mt-3 card1" data-aos="fade-left">
                     <div class="card-body mt-2">
                         <h5 class="card-title">Sr. Strategic Planner - Internet & TV</h5>
@@ -102,6 +110,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Card 3 -->
                 <div class="card mt-3 card0" data-aos="fade-right">
                     <div class="card-body mt-2">
                         <h5 class="card-title">Ssr. Business Intelligence Analyst - B2C</h5>
@@ -119,6 +128,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Card 4 -->
                 <div class="card mt-3 card1" data-aos="fade-left">
                     <div class="card-body mt-2">
                         <h5 class="card-title">Churn Prevention Analyst</h5>
@@ -136,6 +146,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Card 5 -->
                 <div class="card mt-3 card0" data-aos="fade-right">
                     <div class="card-body mt-2">
                         <h5 class="card-title">Churn Analyst</h5>
@@ -153,6 +164,7 @@
                         </ul>
                     </div>
                 </div>
+                <!-- Card 6 -->
                 <div class="card my-3 card1" data-aos="fade-left">
                   <div class="card-body mt-2">
                       <h5 class="card-title">Customer Service Agent</h5>
@@ -170,6 +182,7 @@
               </div>
             </div>
         </div>
+        <!-- Education section -->        
         <div class="edu_bg">
             <h2 id="edu" class="mb-5">Education</h2>
             <div class="card-group mx-1 mx-md-5" data-aos="fade-up">
@@ -205,10 +218,12 @@
                 </div>
               </div>
         </div>
+        <!-- Portfolio section -->        
         <div class="port_bg">
             <h2 id="port">Portfolio</h2>
             <div class="d-flex flex-column justify-content-center align-items-center">
-                <div class="card mb-3">
+                <!-- Card 1 -->
+                <div class="card mb-3" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-duration="300">
                     <img src="./images/CEV.png" class="card-img-top" alt="Website Como Emigrar a Valencia">
                     <div class="card-body">
                       <h5 class="card-title">Como Emigrar a Valencia</h5>
@@ -216,7 +231,8 @@
                       <p class="card-text"><small class="text-muted">2022</small></p>
                     </div>
                   </div>
-                  <div class="card mb-3">
+                  <!-- Card 2 -->
+                  <div class="card mb-3" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-duration="300">
                     <img src="./images/TTL.png" class="card-img-top" alt="The Talent Gallery website">
                     <div class="card-body">
                       <h5 class="card-title">The Talent Gallery</h5>
@@ -224,7 +240,8 @@
                       <p class="card-text"><small class="text-muted">2022</small></p>
                     </div>
                   </div>
-                  <div class="card mb-3">
+                  <!-- Card 3 -->
+                  <div class="card mb-3" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-duration="300">
                     <img src="./images/comingSoon.jpg" class="card-img-top" alt="Coming Soon">
                     <div class="card-body">
                       <h5 class="card-title">Despertar del Alma</h5>
@@ -234,6 +251,7 @@
                   </div>
             </div>
         </div>
+        <!-- Contact section -->        
         <div class="cont_bg">
           <h2 id="cont">Contact</h2>
           <div class="d-flex flex-column flex-md-row justify-content-evenly align-items-center mt-5">
@@ -266,6 +284,11 @@
           </div>
         </div>
       </main>
+      <!-- Footer -->
+      <footer class="d-flex flex-column flex-md-row align-items-center justify-content-end  me-md-5 py-3">
+        <img src="./images/nika.png" alt="Sraw Hat Icon" class="icon_footer me-2">
+        <span class="footer_text">Developed by Gonzalo Cibeira - 2022</span>
+      </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- AOS JS -->

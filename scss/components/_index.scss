@@ -1,4 +1,8 @@
 
+.profile_pic{
+    width: 20vw
+}
+
 .card{
     width: 55vw;
 }
@@ -23,7 +27,7 @@ h2{
 
 .abt_bg{
     background-color: rgb(234, 233, 238);
-    @include parallax_bg;
+    min-height: 600px;
 }
 
 .cont_bg{
@@ -34,15 +38,23 @@ h2{
 .abt_txt{
     font-size: 1.2rem;
     font-weight: 500;
+    margin-bottom: 0;
 }
 
 .work_bg{
-    background-image: url("../images/work_bg.jpg");
+    background-image: linear-gradient(
+                                    rgba(0,0,0,0.3),
+                                    rgba(0,0,0,0.3)),
+                                     url("../images/work_bg.jpg");
+    background-color: black;
     @include parallax_bg
 }
 
 .edu_bg{
-    background-image: url("../images/edu_bg.jpg");
+    background-image: linear-gradient(
+                                    rgba(0,0,0,0.5),
+                                    rgba(0,0,0,0.5)),
+                                     url("../images/edu_bg.jpg");
     @include parallax_bg;
 }
 
@@ -65,7 +77,22 @@ h2{
     width: 25px;
 }
 
+.icon_footer{
+    width: 30px;
+}
+
+.footer_text{
+    font-weight: 700;
+
+}
+
 @media only screen and (max-width: 768px) {
+    
+    h2{
+        margin-right: 2vw;
+        margin-left: 2vw;
+    }
+    
     .card{
         width: 90vw;
     }
@@ -78,6 +105,10 @@ h2{
         margin-left: 0;
     }
 
+    .abt_bg{
+        min-height: 700px;
+    }
+
     .work_bg, .port_bg, .edu_bg, .cont_bg{
         background-image: none;
         background-color: rgb(234, 233, 238);
@@ -87,6 +118,10 @@ h2{
         color: black;
         border-bottom: solid 2px black;
         -webkit-text-stroke: 0.5px whitesmoke;
+    }
+
+    .profile_pic{
+        display: none;
     }
 
 }
