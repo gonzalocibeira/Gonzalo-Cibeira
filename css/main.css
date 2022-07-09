@@ -97,7 +97,7 @@ h2 {
   .card1 {
     margin-left: 0; }
   .abt_bg {
-    min-height: 700px; }
+    min-height: 1200px; }
   .work_bg, .port_bg, .edu_bg, .cont_bg {
     background-image: none;
     background-color: #eae9ee;
@@ -107,4 +107,4 @@ h2 {
     border-bottom: solid 2px black;
     -webkit-text-stroke: 0.5px whitesmoke; }
   .profile_pic {
-    display: none; } }
+    width: 50vw; } }
