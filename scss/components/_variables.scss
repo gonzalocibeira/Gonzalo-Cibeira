@@ -7,6 +7,10 @@ html{
     scroll-behavior: smooth;
 }
 
+$bg_grey: rgb(234, 233, 238);
+
+$bg_white: rgb(248, 249, 250);
+
 @mixin parallax_bg {
     min-height: 500px;
     background-attachment: fixed;

@@ -1,6 +1,9 @@
+body{
+    background-color: $bg_grey;
+}
 
 .profile_pic{
-    width: 20vw
+    width: 20vw;
 }
 
 .card{
@@ -23,16 +26,6 @@ h2{
     margin-right: 20vw;
     border-bottom: solid 2px black;
     -webkit-text-stroke: 0.5px whitesmoke;
-}
-
-.abt_bg{
-    background-color: rgb(234, 233, 238);
-    min-height: 600px;
-}
-
-.cont_bg{
-    background-color: rgb(206, 202, 217);
-    @include parallax_bg;
 }
 
 .abt_txt{
@@ -69,8 +62,12 @@ h2{
     -webkit-text-stroke: 0.5px black;
 }
 
-.icon_sm{
+.icon_md{
     width: 128px;
+}
+
+.icon_sm{
+    width: 64px;
 }
 
 .icon_min{
@@ -79,6 +76,10 @@ h2{
 
 .icon_footer{
     width: 30px;
+}
+
+footer{
+    background-color: $bg_white;
 }
 
 .footer_text{
@@ -105,13 +106,9 @@ h2{
         margin-left: 0;
     }
 
-    .abt_bg{
-        min-height: 1200px;
-    }
-
     .work_bg, .port_bg, .edu_bg, .cont_bg{
         background-image: none;
-        background-color: rgb(234, 233, 238);
+        background-color: $bg_grey;
         overflow: hidden;
     }
 
@@ -123,6 +120,10 @@ h2{
 
     .profile_pic{
         width: 50vw;
+    }
+
+    .img_modal{
+        width:80vw;
     }
 
 }
