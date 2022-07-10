@@ -62,6 +62,18 @@ h2{
     -webkit-text-stroke: 0.5px black;
 }
 
+.diploma{
+    background-color: $bg_white;
+    width: 60vw;
+    p{
+        font-size: 1.5rem;
+    }
+
+    img{
+        width: 60vw;
+    }
+}
+
 .icon_md{
     width: 128px;
 }
@@ -85,6 +97,10 @@ footer{
 .footer_text{
     font-weight: 700;
 
+}
+
+.accordion-item{
+    background-color: transparent !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -122,8 +138,16 @@ footer{
         width: 50vw;
     }
 
-    .img_modal{
-        width:80vw;
+    .diploma{
+        width: 90vw;
+
+        p{
+            font-size: 1.1rem;
+        }
+
+        img{
+            width: 85vw;
+        }
     }
 
 }

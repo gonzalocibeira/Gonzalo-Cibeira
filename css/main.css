@@ -65,6 +65,14 @@ h2 {
   border-bottom: solid 2px whitesmoke;
   -webkit-text-stroke: 0.5px black; }
 
+.diploma {
+  background-color: #f8f9fa;
+  width: 60vw; }
+  .diploma p {
+    font-size: 1.5rem; }
+  .diploma img {
+    width: 60vw; }
+
 .icon_md {
   width: 128px; }
 
@@ -82,6 +90,9 @@ footer {
 
 .footer_text {
   font-weight: 700; }
+
+.accordion-item {
+  background-color: transparent !important; }
 
 @media only screen and (max-width: 768px) {
   h2 {
@@ -103,5 +114,9 @@ footer {
     -webkit-text-stroke: 0.5px whitesmoke; }
   .profile_pic {
     width: 50vw; }
-  .img_modal {
-    width: 80vw; } }
+  .diploma {
+    width: 90vw; }
+    .diploma p {
+      font-size: 1.1rem; }
+    .diploma img {
+      width: 85vw; } }
