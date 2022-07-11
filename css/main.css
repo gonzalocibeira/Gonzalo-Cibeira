@@ -9,6 +9,18 @@ html {
 body {
   background-color: #eae9ee; }
 
+h2 {
+  padding-top: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 4rem;
+  margin-left: 2vw;
+  margin-right: 20vw;
+  border-bottom: solid 2px black;
+  -webkit-text-stroke: 0.5px whitesmoke; }
+
+.btn {
+  font-size: 1.2rem; }
+
 .profile_pic {
   width: 20vw; }
 
@@ -20,15 +32,6 @@ body {
 
 .card1 {
   margin-left: 20vw; }
-
-h2 {
-  padding-top: 56px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 4rem;
-  margin-left: 2vw;
-  margin-right: 20vw;
-  border-bottom: solid 2px black;
-  -webkit-text-stroke: 0.5px whitesmoke; }
 
 .abt_txt {
   font-size: 1.2rem;
@@ -94,9 +97,6 @@ footer {
 .footer_text {
   font-weight: 700; }
 
-.accordion-item {
-  background-color: transparent !important; }
-
 @media only screen and (max-width: 768px) {
   h2 {
     margin-right: 2vw;
@@ -122,6 +122,4 @@ footer {
     .diploma p {
       font-size: 1.1rem; }
     .diploma img {
-      width: 85vw; }
-  .accordion-button {
-    width: 90vw; } }
+      width: 90vw; } }
