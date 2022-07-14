@@ -1,10 +1,5 @@
-const esCont = document.querySelectorAll('.esText');
-const enCont = document.querySelectorAll('.enText');
-const enBtn = document.getElementById("enBtn");
-const esBtn = document.getElementById("esBtn");
-
-const contents = [esCont, enCont]
-const btns = [esBtn, enBtn]
+const contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')]
+const btns = [document.getElementById("enBtn"), document.getElementById("esBtn")]
 
 /* Function to toggle display state */
 function toggleDisp(cont){
