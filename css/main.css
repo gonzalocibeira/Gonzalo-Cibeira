@@ -72,7 +72,7 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-#edu {
+#edu, #eduEs {
   color: whitesmoke;
   border-bottom: solid 2px whitesmoke;
   -webkit-text-stroke: 0.5px black; }
@@ -120,7 +120,7 @@ footer {
     background-image: none;
     background-color: #eae9ee;
     overflow: hidden; }
-  #edu {
+  #edu, #eduEs {
     color: black;
     border-bottom: solid 2px black;
     -webkit-text-stroke: 0.5px whitesmoke; }
