@@ -11,7 +11,7 @@ function toggleDisp(cont){
 }
 
 function toggleBtn(btn){
-    window.getComputedStyle(btn).fontWeight === "bolder" ? btn.style.fontWeight = "lighter" : btn.style.fontWeight = "bolder";
+    window.getComputedStyle(btn).fontWeight === "700" ? btn.style.fontWeight = "100" : btn.style.fontWeight = "700";
     console.log(window.getComputedStyle(btn).fontWeight);
 }
 
