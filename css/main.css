@@ -9,6 +9,15 @@ html {
 body {
   background-color: #eae9ee; }
 
+.esText {
+  display: none; }
+
+#enBtn {
+  font-weight: bolder; }
+
+#esBtn {
+  font-weight: lighter; }
+
 h2 {
   padding-top: 56px;
   font-family: 'Roboto', sans-serif;
