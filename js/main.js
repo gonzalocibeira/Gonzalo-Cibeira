@@ -1,5 +1,5 @@
 const contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')]
-const btns = [document.getElementById("enBtn"), document.getElementById("esBtn")]
+const btns = [document.querySelector("#enBtn"), document.querySelector("#esBtn")]
 
 /* Function to toggle display state */
 function toggleDisp(cont){
@@ -9,10 +9,13 @@ function toggleDisp(cont){
 /* Function to toggle lang button state */
 function toggleBtn(btn){
     window.getComputedStyle(btn).fontWeight === "700" ? btn.style.fontWeight = "100" : btn.style.fontWeight = "700";
-    console.log(window.getComputedStyle(btn).fontWeight);
 }
 
 function changeLang(){
     contents.forEach(cont => toggleDisp(cont));
     btns.forEach(btn => toggleBtn(btn));
 }
+
+/* changeLang button event listener */
+const langBtn = document.querySelector("#langSwitch")
+langBtn.addEventListener("click", changeLang);
