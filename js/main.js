@@ -1,5 +1,7 @@
 const contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')]
 const btns = [document.querySelector("#enBtn"), document.querySelector("#esBtn")]
+const langBtn = document.querySelector("#langSwitch")
+const cookieBtn = document.querySelector("#cookieSettings")
 
 /* Function to toggle display state */
 function toggleDisp(cont){
@@ -17,5 +19,5 @@ function changeLang(){
 }
 
 /* changeLang button event listener */
-const langBtn = document.querySelector("#langSwitch")
 langBtn.addEventListener("click", changeLang);
+
