@@ -1,13 +1,19 @@
 let contents;
-setTimeout(function(){contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')];}, 300);
 const btns = [document.querySelector("#enBtn"), document.querySelector("#esBtn")];
 const langBtn = document.querySelector("#langSwitch");
 const workExpCont = document.querySelector("#workExp");
+const portfolioCont = document.querySelector("#portfolio");
+const diplomaCont = document.querySelector("#diplomas");
 
 /* Importing JSON data*/
 const data = fetch("../json/data.json")
     .then(response => response.json())
-    .then(data => createWorkExp(data["data"]["workexp"]["items"]));
+    .then(function(data) {
+        createWorkExp(data["data"]["workexp"]["items"]);
+        createPortfolio(data["data"]["portfolio"]["items"]);
+        createDiploma(data["data"]["diplomas"]["items"]);
+        contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')];
+    });
 
 /* Function to toggle display state */
 function toggleDisp(cont){
@@ -65,6 +71,38 @@ function createWorkExp (data){
 
         workExpCont.innerHTML += content;
     }
+};
+
+/* Function to create Portfolio Cards */
+function createPortfolio(data){
+    for (card of data){
+
+        let content = `<div class="card mb-3" data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-duration="300">
+                        <img src="./images/${card["image"]}" class="card-img-top" alt="${card["imageAlt"]}">
+                        <div class="card-body">
+                            <h5 class="card-title">${card["title"]}</h5>
+                            <p class="card-text enText">${card["enText"]}
+                            <p class="card-text esText">${card["esText"]}<br>Link: <a href="${card["link"]}" target="_blank">${card["title"]}</a>
+                            <p class="card-text"><small class="text-muted">${card["year"]}</small></p>
+                        </div>
+                    </div>`;
+        
+        portfolioCont.innerHTML += content;
+    };
+};
+
+/* Function to create Diploma Cards */
+function createDiploma(data){
+    for (card of data){
+
+        let content = `<div class="d-flex flex-column align-items-center justify-content-center my-2 diploma">
+                        <p class="text-muted mt-2 enText">${card["titleEn"]}</p>
+                        <p class="text-muted mt-2 esText">${card["titleEs"]}</p>
+                        <img src="./images/${card["image"]}" alt="${card["imageAlt"]}">
+                    </div>`;
+
+        diplomaCont.innerHTML += content;
+    };
 };
 
 /* changeLang button event listener */

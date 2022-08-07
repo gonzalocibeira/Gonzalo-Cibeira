@@ -201,6 +201,83 @@
                 ]
             }
            ] 
+        },
+        "portfolio": {
+            "items": [
+                {
+                    "id": 1,
+                    "image": "CEV.png",
+                    "imageAlt": "Website Como Emigrar a Valencia",
+                    "title": "Como Emigrar a Valencia",
+                    "enText": "My first website, developed for the Coderhouse Full Stack Dev course.<br>It was developed using HTML + Bootstrap + SASS.</p>",
+                    "esText": "Mi primer sitio web, desarrollado para el curso de desarrollo Full Stack de Coderhouse.<br>Fue desarrollado usando HTML + Bootstrap + SASS.</p>",
+                    "link": "https://como-emigrar-a-valencia.netlify.app/",
+                    "year": "2022"
+                },
+                {
+                    "id": 2,
+                    "image": "TTL.png",
+                    "imageAlt": "The Talent Gallery website",
+                    "title": "The Talent Gallery",
+                    "enText": "Project I'm working on for the JS and React part of the Coderhouse Full Stack Dev course.<br>It is a new, minimalistic platform where recruiters can see professional profiles like they were paintings on an art gallery.</p>",
+                    "esText": "Proyecto en el que estoy trabajando para la parte de JS y React del curso Coderhouse Full Stack Dev.<br>Es una plataforma nueva y minimalista en la que los reclutadores pueden ver los perfiles profesionales como si fueran cuadros en una galería de arte.</p>",
+                    "link": "https://turcocibeira.github.io/The_Talent_Gallery/",
+                    "year": "2022"
+                },
+                {
+                    "id": 3,
+                    "image": "comingSoon.jpg",
+                    "imageAlt": "Coming Soon",
+                    "title": "Despertar del Alma",
+                    "enText": "My first real world project for a customer.<br>It's currently under development.</p>",
+                    "esText": "Mi primer proyecto real para un cliente.<br>Actualmente está en desarrollo.</p>",
+                    "link": "",
+                    "year": "2022"
+                }
+                ,
+                {
+                    "id": 4,
+                    "image": "DTV.png",
+                    "imageAlt": "DTV Estetica website",
+                    "title": "DTV Estetica",
+                    "enText": "Website for an auto detailing shop<br>It's currently under development.</p>",
+                    "esText": "Sitio web para un taller de detailing de autos.<br>Actualmente está en desarrollo.</p>",
+                    "link": "https://dtvestetica.netlify.app/pages/servicios.html",
+                    "year": "2022"
+                }
+            ]
+        },
+        "diplomas": {
+            "items": [
+                {
+                    "id": 1,
+                    "titleEn": "Web Development - Coderhouse",
+                    "titleEs": "Web Development - Coderhouse",
+                    "image": "coder1.png",
+                    "imageAlt": "Gonzalo Cibeira's web dev certificate"
+                },
+                {
+                    "id": 2,
+                    "titleEn": "Bachelor's in Marketing - UADE",
+                    "titleEs": "Licenciatura en Marketing - UADE",
+                    "image": "uade.png",
+                    "imageAlt": "Gonzalo Cibeira's Bachelor's in Marketing"
+                },
+                {
+                    "id": 3,
+                    "titleEn": "Investment Specialist - ICB Argentina",
+                    "titleEs": "Especialista en Inversiones - ICB Argentina",
+                    "image": "ibur.png",
+                    "imageAlt": "Gonzalo Cibeira's Investment Specialist certification"
+                },
+                {
+                    "id": 4,
+                    "titleEn": "SAS Macro Language 1 - SAS Education",
+                    "titleEs": "SAS Macro Language 1 - SAS Education",
+                    "image": "sas.png",
+                    "imageAlt": "Gonzalo Cibeira's SAS Macro Language 1 certification"
+                }
+            ]
         }
     }
 
