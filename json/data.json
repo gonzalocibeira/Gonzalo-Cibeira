@@ -1,0 +1,207 @@
+{
+    "data": {
+        "workexp": {
+           "items": [
+            {
+                "id": 1,
+                "image": "cubyn.webp",
+                "imageAlt": "Cubyn logo",
+                "fade": "fade-right",
+                "class": "card0",
+                "enTitle": "Manager, Customer Success",
+                "esTitle": "Manager, Customer Success",
+                "enSub": "Cubyn (Spain/France) - Jan 22 to Jul 22",
+                "esSub": "Cubyn (España/Francia) - Ene 22 a Jul 22",
+                "enCont": "As a Customer Success Manager at Cubyn my main focus was on the Spanish market customers.<br>My tasks consisted on<strong> onboarding new clients</strong> to our platform, <strong>advicing them</strong> on how to best use our services according to their needs and industry and be the <strong>single point of contact</strong> between them and the company.<br>I worked toghether with product and tech teams to <strong>solve customer's pain points and develop new features</strong> for our clients, while also <strong>unlocking new deals</strong> on the sales pipe.</p>",
+                "esCont": "Como Customer Success Manager en Cubyn mi principal foco son los clientes del mercado Español<br>Mis tareas consisten en<strong> onboardear nuevos clientes</strong> a nuestra plataforma, <strong>aconsejarles</strong> sobre cómo usar de la mejor fomra nuestros servicios según sus necesidades e industria y ser el <strong>punto único de contacto</strong> entre ellos y la empresa.<br>Trabajé en conjunto con los equipos de producto y tech para <strong>solucionar los pain points de los clientes y desarrollar nuevas features </strong>para al mismo tiempo poder <strong>desbloquear nuevos deals</strong> en la sales pipe.</p>",
+                "enHigh": [
+                    {
+                        "high": "Managed a +40M € GMV customer portfolio."
+                    },
+                    {
+                        "high": "Managed the entire rehaul of the Cubyn Help Center."
+                    },
+                    {
+                        "high": "Succesfully onboarded several +3M € customers to our platform."
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "Gestioné una cartera de clientes de +40M € GMV"
+                    },
+                    {
+                        "high": "Gestioné toda la reforma del Centro de Ayuda de Cubyn."
+                    },
+                    {
+                        "high": "He onboardeado con éxito a varios clientes de +3M € a nuestra plataforma."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "image": "teco.webp",
+                "imageAlt": "Telecom Argentina logo",
+                "fade": "fade-left",
+                "class": "card1",
+                "enTitle": "Senior Business Analyst (Strategic Planning team)",
+                "esTitle": "Analista de Negocio Senior (equipo de Strategic Planning)",
+                "enSub": "Telecom Argentina - Jun 20 to Jan 22",
+                "esSub": "Telecom Argentina - Jun 20 a Ene 22",
+                "enCont": "In the role of Sr. Business Analyst for Telecom Argentina I was tasked with <strong>creating and challenging the CapEx & Sales budgets</strong> for the company in collaboration with all the <strong>company's stakeholders</strong> (service, tech, finance, sales, etc.).<br>On a daily basis, I would look into sales, churn and installation figures and <strong>work together with the relevant teams</strong> to make sure that that the company's <strong>roadmap was followed successfully</strong>.</p>",
+                "esCont": "En el rol de Analista de Negocio Senior para Telecom Argentina tuve a cargo la <strong>creación y validación de los presupuestos de CapEx y Ventas</strong> para la empresa en colaboración con todos los <strong>stakeholders de la compañia</strong> (service, tech, finanzas, ventas, etc.).<br>Diariamente, revisaba las cifras de ventas, churn e instalaciones y <strong>trabajaba conjuntamente con los equipos relevantes</strong> para asegurar que el <strong>roadmap de la empresa fuera cumplido</strong>.</p>",
+                "enHigh": [
+                    {
+                        "high": "Created a smooth communication loop with all stakeholders."
+                    },
+                    {
+                        "high": "Successfully implemented regular progress reviews with C-level execs."
+                    },
+                    {
+                        "high": "Led the implementation of sales roadmap for 2021"
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "Establecí un circuito de comunicación fluido con todos los stakeholders."
+                    },
+                    {
+                        "high": "Implementé con éxito revisiones periódicas de progresos con ejecutivos de nivel C."
+                    },
+                    {
+                        "high": "Lideré la implementación del roadmap de ventas para 2021"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "image": "teco.webp",
+                "imageAlt": "Telecom Argentina logo",
+                "fade": "fade-right",
+                "class": "card0",
+                "enTitle": "Ssr. Business Analyst (Sales Strategy team)",
+                "esTitle": "Analista de Negocio Ssr. (equipo de Estrategia de Ventas)",
+                "enSub": "Telecom Argentina - Dec 18 to May 20",
+                "esSub": "Telecom Argentina - Dec 18 a May 20",
+                "enCont": "I took the <strong>challenge of developing the BI stack</strong> on the B2C Sales Strategy team after I took interest in data on my previous role.<br>Before I took the role, the team was relying on a combination of Excel sheets and Access DBs. After some months, I had <strong> successfully migrated the team's data and reports to a modern stack</strong> (SAS, PowerBI, Metabase).<br>While working this role, I also <strong>trained the team members</strong> on how to use SQL, PowerBI and DAX and provided <strong>insights and business analysis on the sales strategies and policies</strong>.</p>",
+                "esCont": "Afronté el <strong>desafío de desarrollar el stack de BI</strong> en el equipo de estrategia de ventas B2C luego de inetersarme por los datos en mi puesto anterior.<br>Antes de tomar éste rol, el equipo dependía de una combinación Excel y BDDs de Access. Luego de unos meses, había <strong> migrado con éxito los datos e informes del equipo a un stack moderna</strong> (SAS, PowerBI, Metabase).<br>Mientras trabajé aquí, también <strong>entrené a los miembros del equipo</strong> en cómo usar SQL, PowerBI y DAX y produje <strong>insights y análisis de negocio sobre las estrategias y políticas de ventas</strong>.</p>",
+                "enHigh": [
+                    {
+                        "high": "Modernized the team's BI stack."
+                    },
+                    {
+                        "high": "Coached team memebers on how to use the new stack."
+                    },
+                    {
+                        "high": "Generated insights that led to a 5% increase in sales."
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "Modernizé el stack de Bi del equipo."
+                    },
+                    {
+                        "high": "Capacité a los miembros del equipo en el uso del nuevo stack."
+                    },
+                    {
+                        "high": "Generé insights que llevaron a un aumento del 5% en las ventas."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "image": "teco.webp",
+                "imageAlt": "Telecom Argentina logo",
+                "fade": "fade-left",
+                "class": "card1",
+                "enTitle": "Business Analyst (Retention team)",
+                "esTitle": "Analista de Negocio (equipo de Retención)",
+                "enSub": "Telecom Argentina - Feb 18 to Nov 18",
+                "esSub": "Telecom Argentina - Feb 18 a Nov 18",
+                "enCont": "Working as a Business Analyst for Telecom was a challenge because it was my first role on the company, so I had to <strong>quickly learn new products and processes.</strong><br>I was in charge of <strong>analyzing the Churn data</strong> of the company and coming up with policies that would lead to a <strong>lower churn rate and better retention rates.</strong><br>For this role, I also relied hevily on my <strong>communication skills</strong>, as I needed to be in sync with <strong>various stakeholders</strong> (product, call centers, finance) in order to better implement retention policies and help achieve the comapny's client and financial goals.</p>",
+                "esCont": "Trabajar como Analista de Negocio para Telecom fue un reto porque era mi primer rol en la empresa, así que tuve que <strong>aprender nuevos productos y procesos rápidamente.</strong><br>Estaba a cargo de <strong>analizar los datos de churn</strong> de la empresa y desarrollar políticas que resultaran en<strong>menor churn y mayores tasas de retención</strong><br>para este rol, me apoyé en mis <strong>habilidades de comunicación</strong>, ya que debía estar en sintonía con <strong>varios stakeholders</strong> (producto, call centers, finanzas) para poder implementar mejores políticas de retención y ayudar a alcanzar las metas financieras y de clientes de la empresa.</p>",
+                "enHigh": [
+                    {
+                        "high": "Took over and upgraded the data analysis inside the team."
+                    },
+                    {
+                        "high": "Found and corrected several metric deviations."
+                    },
+                    {
+                        "high": "Successfully implemented churn reducing strategies (-7% on some client clusters)."
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "Me hize cargo y mejoré el análisis de datos dentro del equipo."
+                    },
+                    {
+                        "high": "Encontré y correjí varios desvíos en las métricas."
+                    },
+                    {
+                        "high": "Implementé con éxito estrategias de reducción de churn (-7% en algunos clusters de clientes)."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "image": "cable.webp",
+                "imageAlt": "Cablevision Argentina logo",
+                "fade": "fade-right",
+                "class": "card0",
+                "enTitle": "Business Analyst (Retention team)",
+                "esTitle": "Analista de Negocio (equipo de Retención)",
+                "enSub": "Cablevision Argentina - Jan 17 to Jan 18",
+                "esSub": "Cablevision Argentina - Ene 17 a Ene 18",
+                "enCont": "As my first job as a Business Analyst, this position helped me learn the ropes of the corporate world and quickly <strong>develop the analytics and communications skills</strong> that would shape my career.<br> I was in charge of <strong>analyzing the effectiveness</strong> of the comapny's retention policies, and <strong>coming up with improvements and out of the box ways</strong> to up the retention rate at our call centers.</p>",
+                "esCont": "Al ser mi primer trabajo como Analista de Negocio, este puesto me ayudó a aprender las reglas del mundo corporativo y <strong>desarrollar rápidamente las habilidades analíticas y de comunicación</strong> que darían forma a mi carrera.<br> Estaba a cargo de <strong>analizar la efectividad</strong> de las políticas de retención de la empresa y <strong>desarrollar mejoras y formas innovadoras</strong> para aumetar la tasa de retención en nuestros call centers.</p>",
+                "enHigh": [
+                    {
+                        "high": "Brainstormed and implemented new ways to up retention rates."
+                    },
+                    {
+                        "high": "Routinely presented area results to other teams."
+                    },
+                    {
+                        "high": "Established successful realtions with 3rd party call center's managing teams."
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "Propuse y apliqué nuevas formas de aumentar las tasas de retención."
+                    },
+                    {
+                        "high": "Presenté los resultados del área a otros equipos."
+                    },
+                    {
+                        "high": "Establecí relaciones exitosas con los equipos de gestión de los call centers tercerizados."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "image": "cable.webp",
+                "imageAlt": "Cablevision Argentina logo",
+                "fade": "fade-left",
+                "class": "card1",
+                "enTitle": "Customer Service Agent",
+                "esTitle": "Representante de atención al cliente",
+                "enSub": "Cablevision Argentina - Apr 16 to Dec 16",
+                "esSub": "Cablevision Argentina - Abr 16 a Dic 16",
+                "enCont": "I worked as a CSA for teh Internet and TV product lines, managing inquiries over the phone and via chat.<br>I solved customer's issues related to billing, service use and low degree tech issues.</p>",
+                "esCont": "Trabajé como RAC para las líneas de productos de Internet y TV, gestionando consultas por teléfono y vía chat.<br>Resolví problemas de los clientes relacionados con la facturación, el uso del servicio y cuestiones técnicas de bajo nivel.</p>",
+                "enHigh": [
+                    {
+                        "high": "On my short time at this position, I received the EDR award for best CSA."
+                    }
+                ],
+                "esHigh": [
+                    {
+                        "high": "En el poco tiempo que estuve en este puesto, recibí el premio EDR al mejor RAC."
+                    }
+                ]
+            }
+           ] 
+        }
+    }
+
+}

@@ -64,6 +64,9 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.work_img {
+  max-height: 4rem; }
+
 .port_bg {
   background-image: url("../images/port_bg.jpg");
   min-height: 500px;

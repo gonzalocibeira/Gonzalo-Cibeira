@@ -1,18 +1,18 @@
 body{
     background-color: $bg_grey;
-}
+};
 
 .esText{
     display: none;
-}
+};
 
 #enBtn{
     font-weight: bolder;
-}
+};
 
 #esBtn{
     font-weight: lighter;
-}
+};
 
 h2{
     padding-top: 56px;
@@ -22,33 +22,33 @@ h2{
     margin-right: 20vw;
     border-bottom: solid 2px black;
     -webkit-text-stroke: 0.5px whitesmoke;
-}
+};
 
 .btn{
     font-size: 1.2rem;
-}
+};
 
 .profile_pic{
     width: 20vw;
-}
+};
 
 .card{
     width: 55vw;
-}
+};
 
 .card0{
     margin-right: 20vw;
-}
+};
 
 .card1{
     margin-left: 20vw;
-}
+};
 
 .abt_txt{
     font-size: 1.2rem;
     font-weight: 500;
     margin-bottom: 0;
-}
+};
 
 .work_bg{
     background-image: linear-gradient(
@@ -57,7 +57,7 @@ h2{
                                      url("../images/work_bg.jpg");
     background-color: black;
     @include parallax_bg
-}
+};
 
 .edu_bg{
     background-image: linear-gradient(
@@ -65,105 +65,109 @@ h2{
                                     rgba(0,0,0,0.5)),
                                      url("../images/edu_bg.jpg");
     @include parallax_bg;
-}
+};
+
+.work_img{
+    max-height: 4rem;
+};
 
 .port_bg{
     background-image: url("../images/port_bg.jpg");
     @include parallax_bg;
-}
+};
 
 #edu, #eduEs{
     color: whitesmoke;
     border-bottom: solid 2px whitesmoke;
     -webkit-text-stroke: 0.5px black;
-}
+};
 
 .accordion-button{
     width: 80vw;
-}
+};
 
 .diploma{
     background-color: $bg_white;
     width: 60vw;
     p{
         font-size: 1.5rem;
-    }
+    };
 
     img{
         width: 60vw;
-    }
-}
+    };
+};
 
 .icon_md{
     width: 128px;
-}
+};
 
 .icon_sm{
     width: 64px;
-}
+};
 
 .icon_min{
     width: 25px;
-}
+};
 
 .icon_footer{
     width: 30px;
-}
+};
 
 footer{
     background-color: $bg_white;
-}
+};
 
 .footer_text{
     font-weight: 700;
 
-}
+};
 
 @media only screen and (max-width: 768px) {
     
     h2{
         margin-right: 2vw;
         margin-left: 2vw;
-    }
+    };
     
     .card{
         width: 90vw;
-    }
+    };
 
     .card0{
         margin-right: 0;
-    }
+    };
 
     .card1{
         margin-left: 0;
-    }
+    };
 
     .work_bg, .port_bg, .edu_bg, .cont_bg{
         background-image: none;
         background-color: $bg_grey;
         overflow: hidden;
-    }
+    };
 
     #edu, #eduEs{
         color: black;
         border-bottom: solid 2px black;
         -webkit-text-stroke: 0.5px whitesmoke;
-    }
+    };
 
     .profile_pic{
         width: 50vw;
-    }
+    };
 
     .diploma{
         width: 90vw;
 
         p{
             font-size: 1.1rem;
-        }
+        };
 
         img{
             width: 90vw;
-        }
-    }
+        };
+    };
 
-}
+};
