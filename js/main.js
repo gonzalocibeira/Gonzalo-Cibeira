@@ -10,8 +10,8 @@ const data = fetch("../json/data.json")
     .then(response => response.json())
     .then(function(data) {
         createWorkExp(data["data"]["workexp"]["items"]);
-        createPortfolio(data["data"]["portfolio"]["items"]);
         createDiploma(data["data"]["diplomas"]["items"]);
+        createPortfolio(data["data"]["portfolio"]["items"]);
         contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')];
     });
 
@@ -33,6 +33,9 @@ function changeLang(){
 
 /* Function to create Work Experience Cards */
 function createWorkExp (data){
+    let fadeSide = "left";
+    let cardClass = "card0";
+
     for (card of data){
 
         let enHighlights = "";
@@ -46,7 +49,7 @@ function createWorkExp (data){
             esHighlights += `<li class="list-group-item esText">${el["high"]}</li>`;
         }
 
-        let content = `<div class="card mt-3 ${card["class"]}" data-aos="${card["fade"]}">
+        let content = `<div class="card mt-3 ${cardClass}" data-aos="fade-${fadeSide}">
                     <div class="card-body">
                     <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
                         <div>
@@ -70,7 +73,22 @@ function createWorkExp (data){
                 </div>`;
 
         workExpCont.innerHTML += content;
-    }
+        fadeSide == "left" ? (fadeSide="right", cardClass="card1") : (fadeSide="left", cardClass="card0");
+    };
+};
+
+/* Function to create Diploma Cards */
+function createDiploma(data){
+    for (card of data){
+
+        let content = `<div class="d-flex flex-column align-items-center justify-content-center my-2 diploma">
+                        <p class="text-muted mt-2 enText">${card["titleEn"]}</p>
+                        <p class="text-muted mt-2 esText">${card["titleEs"]}</p>
+                        <img src="./images/${card["image"]}" alt="${card["imageAlt"]}">
+                    </div>`;
+
+        diplomaCont.innerHTML += content;
+    };
 };
 
 /* Function to create Portfolio Cards */
@@ -88,20 +106,6 @@ function createPortfolio(data){
                     </div>`;
         
         portfolioCont.innerHTML += content;
-    };
-};
-
-/* Function to create Diploma Cards */
-function createDiploma(data){
-    for (card of data){
-
-        let content = `<div class="d-flex flex-column align-items-center justify-content-center my-2 diploma">
-                        <p class="text-muted mt-2 enText">${card["titleEn"]}</p>
-                        <p class="text-muted mt-2 esText">${card["titleEs"]}</p>
-                        <img src="./images/${card["image"]}" alt="${card["imageAlt"]}">
-                    </div>`;
-
-        diplomaCont.innerHTML += content;
     };
 };
 
