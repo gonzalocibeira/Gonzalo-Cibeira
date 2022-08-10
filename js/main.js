@@ -4,8 +4,9 @@ const langBtn = document.querySelector("#langSwitch");
 const workExpCont = document.querySelector("#workExp");
 const portfolioCont = document.querySelector("#portfolio");
 const diplomaCont = document.querySelector("#diplomas");
+let defaultLang = JSON.parse(localStorage.getItem("defaultLang")) == null ? localStorage.setItem("defaultLang", JSON.stringify("en")) : JSON.parse(localStorage.getItem("defaultLang"));
 
-/* Importing JSON data*/
+/* Importing JSON data */
 const data = fetch("../json/data.json")
     .then(response => response.json())
     .then(function(data) {
@@ -13,7 +14,11 @@ const data = fetch("../json/data.json")
         createDiploma(data["data"]["diplomas"]["items"]);
         createPortfolio(data["data"]["portfolio"]["items"]);
         contents = [document.querySelectorAll('.esText'), document.querySelectorAll('.enText')];
-    });
+        /* Check Default Language */
+        if (defaultLang == "es"){
+            changeLang(true);
+        };
+            });
 
 /* Function to toggle display state */
 function toggleDisp(cont){
@@ -26,7 +31,11 @@ function toggleBtn(btn){
 };
 
 /* Function to change language */
-function changeLang(){
+function changeLang(isDefault){
+    if (!isDefault){
+        defaultLang == "en" ? defaultLang = "es" : defaultLang = "en";
+        localStorage.setItem("defaultLang", JSON.stringify(defaultLang));
+    };
     contents.forEach(cont => toggleDisp(cont));
     btns.forEach(btn => toggleBtn(btn));
 };
@@ -110,5 +119,5 @@ function createPortfolio(data){
 };
 
 /* changeLang button event listener */
-langBtn.addEventListener("click", changeLang);
+langBtn.addEventListener("click", function (){changeLang(false)});
 
