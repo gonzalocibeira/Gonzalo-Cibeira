@@ -4,7 +4,12 @@ const langBtn = document.querySelector("#langSwitch");
 const workExpCont = document.querySelector("#workExp");
 const portfolioCont = document.querySelector("#portfolio");
 const diplomaCont = document.querySelector("#diplomas");
-let defaultLang = JSON.parse(localStorage.getItem("defaultLang")) == null ? localStorage.setItem("defaultLang", JSON.stringify("en")) : JSON.parse(localStorage.getItem("defaultLang"));
+let defaultLang = JSON.parse(localStorage.getItem("defaultLang")) == null ? firstLoadLang() : JSON.parse(localStorage.getItem("defaultLang"));
+
+function firstLoadLang(){
+    localStorage.setItem("defaultLang", JSON.stringify("en"));
+    return "en";
+};
 
 /* Importing JSON data */
 const data = fetch("../json/data.json")
