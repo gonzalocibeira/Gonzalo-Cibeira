@@ -8,8 +8,6 @@ const portfolioCont = document.querySelector("#portfolio");
 const diplomaCont = document.querySelector("#diplomas");
 let defaultLang = JSON.parse(localStorage.getItem("defaultLang")) == null ? firstLoadLang() : JSON.parse(localStorage.getItem("defaultLang"));
 
-console.log(loadingScreen.style.display);
-
 function firstLoadLang(){
     localStorage.setItem("defaultLang", JSON.stringify("en"));
     return "en";
@@ -36,6 +34,7 @@ function endLoadScreen(){
     loadingScreen.classList.add("loadingOff");
     loadingScreen.classList.remove("loadingOn");
     body.classList.remove("hiddenOnLoad");
+    AOS.refresh();
 };
 
 /* Function to toggle display state */
