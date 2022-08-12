@@ -1,3 +1,5 @@
+const body = document.querySelector("body");
+const loadingScreen = document.querySelector("#loadingScreen");
 let contents;
 const btns = [document.querySelector("#enBtn"), document.querySelector("#esBtn")];
 const langBtn = document.querySelector("#langSwitch");
@@ -5,6 +7,8 @@ const workExpCont = document.querySelector("#workExp");
 const portfolioCont = document.querySelector("#portfolio");
 const diplomaCont = document.querySelector("#diplomas");
 let defaultLang = JSON.parse(localStorage.getItem("defaultLang")) == null ? firstLoadLang() : JSON.parse(localStorage.getItem("defaultLang"));
+
+console.log(loadingScreen.style.display);
 
 function firstLoadLang(){
     localStorage.setItem("defaultLang", JSON.stringify("en"));
@@ -23,7 +27,16 @@ const data = fetch("../json/data.json")
         if (defaultLang == "es"){
             changeLang(true);
         };
+        /* Remove Loading Screen */
+        setTimeout(endLoadScreen, 1500);
             });
+
+/* Function to show body after loading screen */
+function endLoadScreen(){
+    loadingScreen.classList.add("loadingOff");
+    loadingScreen.classList.remove("loadingOn");
+    body.classList.remove("hiddenOnLoad");
+};
 
 /* Function to toggle display state */
 function toggleDisp(cont){
