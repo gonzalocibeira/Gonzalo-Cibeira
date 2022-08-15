@@ -1,5 +1,6 @@
 const body = document.querySelector("body");
 const loadingScreen = document.querySelector("#loadingScreen");
+const scrollDownIcon = document.querySelector("#scrollDown");
 let contents;
 const btns = [document.querySelector("#enBtn"), document.querySelector("#esBtn")];
 const langBtn = document.querySelector("#langSwitch");
@@ -36,6 +37,19 @@ function endLoadScreen(){
     body.classList.remove("hiddenOnLoad");
     AOS.refresh();
 };
+
+/* Function to animate scroll down icon */
+function scrollDown(){
+    scrollDownIcon.classList.remove("fa-angle-double-down");
+    scrollDownIcon.classList.add("fa-angle-down");
+    setTimeout(function(){
+        scrollDownIcon.classList.remove("fa-angle-down");
+        scrollDownIcon.classList.add("fa-angle-double-down");
+    },500);
+};
+
+scrollDown();
+setInterval(scrollDown, 1000);
 
 /* Function to toggle display state */
 function toggleDisp(cont){

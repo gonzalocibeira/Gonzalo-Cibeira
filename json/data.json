@@ -207,8 +207,8 @@
                     "image": "TTL.png",
                     "imageAlt": "The Talent Gallery website",
                     "title": "The Talent Gallery",
-                    "enText": "Project I'm working on for the JS and React part of the Coderhouse Full Stack Dev course.<br>It is a new, minimalistic platform where recruiters can see professional profiles like they were paintings on an art gallery.</p>",
-                    "esText": "Proyecto en el que estoy trabajando para la parte de JS y React del curso Coderhouse Full Stack Dev.<br>Es una plataforma nueva y minimalista en la que los reclutadores pueden ver los perfiles profesionales como si fueran cuadros en una galería de arte.</p>",
+                    "enText": "Project I'm working on for the JS and React part of the Coderhouse Full Stack Dev course.<br>It's a minimalistic platform where recruiters can see professional profiles like they were paintings on an art gallery.</p>",
+                    "esText": "Proyecto en el que estoy trabajando para la parte de JS y React del curso Coderhouse Full Stack Dev.<br>Es una plataforma minimalista en la que los reclutadores pueden ver los perfiles profesionales como si fueran cuadros en una galería de arte.</p>",
                     "link": "https://turcocibeira.github.io/The_Talent_Gallery/",
                     "year": "2022"
                 },
@@ -219,7 +219,7 @@
                     "title": "Despertar del Alma",
                     "enText": "My first real world project for a customer.<br>It's currently under development.</p>",
                     "esText": "Mi primer proyecto real para un cliente.<br>Actualmente está en desarrollo.</p>",
-                    "link": "",
+                    "link": "#",
                     "year": "2022"
                 }
                 ,
