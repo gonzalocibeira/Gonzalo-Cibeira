@@ -4,6 +4,23 @@
            "items": [
             {
                 "id": 1,
+                "image": "netcentric.webp",
+                "imageAlt": "Cognizant Netcentric logo",
+                "enTitle": "Requirements Engineer",
+                "esTitle": "Requirements Engineer",
+                "enSub": "Cognizant Netcentric - Aug 22",
+                "esSub": "Cognizant Netcentric - Ago 22",
+                "enCont": "</p>",
+                "esCont": "</p>",
+                "enHigh": [
+
+                ],
+                "esHigh": [
+
+                ]
+            },
+            {
+                "id": 2,
                 "image": "cubyn.webp",
                 "imageAlt": "Cubyn logo",
                 "enTitle": "Manager, Customer Success",
@@ -36,7 +53,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "image": "teco.webp",
                 "imageAlt": "Telecom Argentina logo",
                 "enTitle": "Senior Business Analyst (Strategic Planning team)",
@@ -69,7 +86,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "image": "teco.webp",
                 "imageAlt": "Telecom Argentina logo",
                 "enTitle": "Ssr. Business Analyst (Sales Strategy team)",
@@ -102,7 +119,7 @@
                 ]
             },
             {
-                "id": 4,
+                "id": 5,
                 "image": "teco.webp",
                 "imageAlt": "Telecom Argentina logo",
                 "enTitle": "Business Analyst (Retention team)",
@@ -135,7 +152,7 @@
                 ]
             },
             {
-                "id": 5,
+                "id": 6,
                 "image": "cable.webp",
                 "imageAlt": "Cablevision Argentina logo",
                 "enTitle": "Business Analyst (Retention team)",
@@ -168,7 +185,7 @@
                 ]
             },
             {
-                "id": 6,
+                "id": 7,
                 "image": "cable.webp",
                 "imageAlt": "Cablevision Argentina logo",
                 "enTitle": "Customer Service Agent",
