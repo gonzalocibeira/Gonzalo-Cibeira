@@ -256,27 +256,34 @@
             "items": [
                 {
                     "id": 1,
+                    "titleEn": "JavaScript - Coderhouse",
+                    "titleEs": "JavaScript - Coderhouse",
+                    "image": "coder2.png",
+                    "imageAlt": "Gonzalo Cibeira's JavaScript certificate"
+                },
+                {
+                    "id": 2,
                     "titleEn": "Web Development - Coderhouse",
                     "titleEs": "Web Development - Coderhouse",
                     "image": "coder1.png",
                     "imageAlt": "Gonzalo Cibeira's web dev certificate"
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "titleEn": "Bachelor's in Marketing - UADE",
                     "titleEs": "Licenciatura en Marketing - UADE",
                     "image": "uade.png",
                     "imageAlt": "Gonzalo Cibeira's Bachelor's in Marketing"
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "titleEn": "Investment Specialist - ICB Argentina",
                     "titleEs": "Especialista en Inversiones - ICB Argentina",
                     "image": "ibur.png",
                     "imageAlt": "Gonzalo Cibeira's Investment Specialist certification"
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "titleEn": "SAS Macro Language 1 - SAS Education",
                     "titleEs": "SAS Macro Language 1 - SAS Education",
                     "image": "sas.png",
